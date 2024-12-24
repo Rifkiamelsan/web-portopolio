@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Rifki Amelsan</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">Tentang Saya</a>
+            <a href="#projects">Design</a>
+            <a href="#contact">Sosial Media</a>
+        </nav>
+    </header>
+
+    <!-- Section Home -->
+   <!-- Section Home -->
+<section id="home" class="home">
+    <h2></h2>
+    <div class="home-content">
+        <div class="text-container">
+            <h2>Home</h2> <!-- Titik tulisan 'Home' -->
+            <p>Saya Rifki Amelsan, seorang mahasiswa Semester 3 Di Teknik Informatika di Universitas Muhammadiyah Bengkulu. Saya Lagi Belajar tentang Desain Poster.</p>
+        </div>
+        <img src="IMG_20211224_224812_549.jpg" alt="Profile Picture" class="profile-img">
+    </div>
+    <div class="social-links">
+        <a href="https://www.instagram.com/rifki_amelsan/profilecard/?igsh=MTVsZ2Z4aGNjZzUwdw==" target="_blank">
+            <img src="instagram-1581266_1280.webp" alt="Instagram" style="width: 50px; height: 50px;">
+        </a>
+        <a href="https://www.tiktok.com/@rifkiamlsn?_t=8sE7yGHjlH5&_r=1" target="_blank">
+            <img src="OIP.jpg" alt="TikTok" style="width: 50px; height: 50px;">
+        </a>
+    </div>
+</section>
+
+
+    <!-- Other Sections -->
+    <section id="about" class="about">
+        <h2>Selamat datang di Portofolio Saya!</h2>
+        <p>Halo, saya Rifki Amelsan, seorang mahasiswa di Teknik Informatika Universitas Muhammadiyah Bengkulu. Di sini, Anda bisa melihat karya desain saya dan mengetahui lebih lanjut tentang perjalanan saya di dunia desain poster.</p>
+        <a href="#projects" class="btn">my desain</a>
+    </section>
+
+    <section id="projects">
+        <h2>My Design</h2>
+        <div class="projects">
+            <div class="project-card">
+                <img class="clickable" src="WhatsApp Image 2024-12-15 at 10.26.14 (1).jpeg" alt="Project 1" onclick="openLightbox('WhatsApp Image 2024-12-15 at 10.26.14 (1).jpeg')">
+                <h3>Design 1</h3>
+                <p>Poster Timnas Indonesia.</p>
+            </div>
+            <div class="project-card">
+                <img class="clickable" src="WhatsApp Image 2024-12-15 at 10.26.14 (2).jpeg" alt="Project 2" onclick="openLightbox('WhatsApp Image 2024-12-15 at 10.26.14 (2).jpeg')">
+                <h3>Design 2</h3>
+                <p>Poster Menu.</p>
+            </div>
+            <div class="project-card">
+                <img class="clickable" src="WhatsApp Image 2024-12-15 at 10.26.14.jpeg" alt="Project 3" onclick="openLightbox('WhatsApp Image 2024-12-15 at 10.26.14.jpeg')">
+                <h3>Design 3</h3>
+                <p>Poster Timnas Indonesia.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Sosial Media</h2>
+        <div class="social-links">
+            <a href="https://www.instagram.com/rifki_amelsan/profilecard/?igsh=MTVsZ2Z4aGNjZzUwdw==" target="_blank">
+                <img src="instagram-1581266_1280.webp" alt="Instagram" style="width: 50px; height: 50px;">
+            </a>
+            <a href="https://www.tiktok.com/@rifkiamlsn?_t=8sE7yGHjlH5&_r=1" target="_blank">
+                <img src="OIP.jpg" alt="TikTok" style="width: 50px; height: 50px;">
+            </a>
+        </div>
+        <footer>
+            <p>© 2024 [Rifki Amelsan]</p>
+        </footer>
+    </section>
+
+    <div id="lightbox" style="display: none;">
+        <img src="" alt="Gambar Lightbox" />
+    </div>    
+
+    <script src="script.js"></script>
+</body>
+</html>
